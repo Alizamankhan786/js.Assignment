@@ -160,35 +160,86 @@
 
 
 
-var Month = +prompt("Enter Your Month")
+// var Month = +prompt("Enter Your Month")
 
-Month = 8;
+// Month = 8;
 
-if (Month == 1){
-    alert("January");
-}else if (Month == 2){
-    alert("February");
-}else if (Month == 3){
-    alert("March");
-}else if (Month == 4){
-    alert("April");
-}else if (Month == 5){
-    alert("May");
-}else if (Month == 6){
-    alert("June");
-}else if (Month == 7){
-    alert("July");
-}else if (Month == 8){
-    alert("August");
-}else if (Month == 9){
-    alert("September");
-}else if (Month == 10){
-    alert("October");
-}else if (Month == 11){
-    alert("November");
-}else if (Month == 12){
-    alert("December");
-}else{
-    alert("Invalid Month");
-}
+// if (Month == 1){
+//     alert("January");
+// }else if (Month == 2){
+//     alert("February");
+// }else if (Month == 3){
+//     alert("March");
+// }else if (Month == 4){
+//     alert("April");
+// }else if (Month == 5){
+//     alert("May");
+// }else if (Month == 6){
+//     alert("June");
+// }else if (Month == 7){
+//     alert("July");
+// }else if (Month == 8){
+//     alert("August");
+// }else if (Month == 9){
+//     alert("September");
+// }else if (Month == 10){
+//     alert("October");
+// }else if (Month == 11){
+//     alert("November");
+// }else if (Month == 12){
+//     alert("December");
+// }
 
+
+// function greetUser(fname , Lname , age){
+//     console.log("Hello " + fname + " " + Lname + " " + age);
+// }
+
+// greetUser("Ali" , "Zaman" , "19")
+
+// function alter(num1 + num2){
+//     console.log(num1 + num2);
+// }
+
+// alter(10+10)
+
+
+// var urdu =+prompt("urdu Marks");
+// var English =+prompt("English Marks");
+// var physics =+prompt("physics Marks");
+// var maths =+prompt("maths Marks");
+// var totalNumber = "500"
+
+// var obtainedMarks = (urdu + English + physics + maths);
+
+// console.log(obtainedMarks);
+// console.log(totalNumber);
+// console.log(obtainedMarks/totalNumber*100);
+
+
+
+// var maths =+prompt("Maths Marks");
+// var science =+prompt("Science Marks");
+// var Islamiyat =+prompt("Islamiyat Marks");
+// var Computer =+prompt("Computer Marks");
+// var totalNumber = "500"
+
+// var obtainedMarks = ( maths + science + Islamiyat + Computer);
+
+// console.log(obtainedMarks);
+// console.log(totalNumber);
+// console.log(obtainedMarks/totalNumber*100);
+
+
+
+var urdu =+prompt ("Urdu Marks");
+var maths =+prompt ("Maths Marks");
+var computer =+prompt ("Computer Marks");
+var css =+prompt ("CSS Marks");
+var totalNumber = "500"
+
+var obtainedMarks = (urdu + maths + computer + css)
+
+console.log(obtainedMarks);
+console.log(totalNumber);
+console.log(obtainedMarks/totalNumber*100);

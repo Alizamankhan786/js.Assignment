@@ -232,14 +232,152 @@
 
 
 
-var urdu =+prompt ("Urdu Marks");
-var maths =+prompt ("Maths Marks");
-var computer =+prompt ("Computer Marks");
-var css =+prompt ("CSS Marks");
-var totalNumber = "500"
+// var urdu =+prompt ("Urdu Marks");
+// var maths =+prompt ("Maths Marks");
+// var computer =+prompt ("Computer Marks");
+// var css =+prompt ("CSS Marks");
+// var totalNumber = "500"
 
-var obtainedMarks = (urdu + maths + computer + css)
+// var obtainedMarks = (urdu + maths + computer + css)
 
-console.log(obtainedMarks);
-console.log(totalNumber);
-console.log(obtainedMarks/totalNumber*100);
+// console.log(obtainedMarks);
+// console.log(totalNumber);
+// console.log(obtainedMarks/totalNumber*100);
+
+
+
+
+
+
+
+// var chemistry = document.querySelector(".chemistry")
+// var physics = document.querySelector(".physics")
+// var maths = document.querySelector(".maths")
+// var english = document.querySelector(".english")
+// var totalMarks = 400
+
+
+
+// function greetUSer(){
+//     var obtainedMarks = +chemistry.value + +maths.value + +physics.value + +english.value
+//     console.log(obtainedMarks);
+
+
+//     var percentage = obtainedMarks/totalMarks*100
+//     console.log(percentage);
+
+//     if(percentage > 80){
+//         console.log("Grade is A+");
+//     }else if(percentage > 70){
+//         console.log("Grade is A");
+//     }else if(percentage > 60){
+//         console.log("Grade is B");
+//     }else if(percentage > 50){
+//     console.log("Grade is C");
+//     }else{
+//     console.log("FAIL");
+// }
+
+// }
+
+
+
+// var physics = document.querySelector(".physics");
+// var chemistry = document.querySelector(".chemistry");
+// var maths = document.querySelector(".maths");
+// var computer = document.querySelector(".computer");
+// var totalMarks = 400
+
+
+// function greetUSer(){
+//     var obtainedMarks = + +physics.value + +chemistry.value + +maths.value + +computer.value
+//     console.log(obtainedMarks);
+
+// var percentage = obtainedMarks/totalMarks*100
+// console.log(percentage);
+
+//     if (percentage > 90){
+//         console.log("Grade is A+");
+//     }else if (percentage > 70){
+//         console.log("Grade is A");
+//     }else if (percentage > 60){
+//         console.log("Grade is B");
+//     }else if (percentage > 50){
+//         console.log("Grade is C");
+//     }else if(percentage > 40){
+//         console.log(FAIL);
+//     }
+// }
+
+
+
+
+// var css = document.querySelector(".css");
+// var js = document.querySelector(".js");
+// var html = document.querySelector(".html");
+// var reactjs = document.querySelector(".reactjs");
+// var totalMarks = 400
+
+
+// function start(){
+//     var obtainedMarks = +css.value + +js.value + +html.value + +reactjs.value
+//     console.log(obtainedMarks);
+
+
+//     var percentage = obtainedMarks/totalMarks*100
+//     console.log(percentage);
+
+
+//     if (percentage > 90){
+//         console.log("A+");
+//     }else if(percentage > 80){
+//         console.log("A");
+//     }else if (percentage > 70){
+//         console.log("B")
+//         } else if (percentage > 60){
+//             console.log("C");
+//         }else if (percentage > 50){
+//             console.log("FAIL");
+//         }
+//         }
+
+
+var ca = document.querySelector(".ca");
+var ba = document.querySelector(".ba");
+var acca = document.querySelector(".acca");
+var bba = document.querySelector(".bba");
+var totalMarks = 400
+
+
+function setUp(){
+    var obtainedMarks = +ca.value + +ba.value + +acca.value + +bba.value
+    console.log(obtainedMarks);
+
+    var percentage = obtainedMarks/totalMarks*100
+    console.log(percentage);
+
+    if(percentage > 90){
+        console.log("A+");
+    }else if (percentage > 80){
+        console.log("A");
+    }else if (percentage > 70){
+        console.log("B");
+    }else if (percentage > 60){
+        console.log("C");
+    }else if (percentage > 50){
+        console.log(FAIL);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -342,32 +342,135 @@
 //         }
 
 
-var ca = document.querySelector(".ca");
-var ba = document.querySelector(".ba");
-var acca = document.querySelector(".acca");
-var bba = document.querySelector(".bba");
-var totalMarks = 400
+// var ca = document.querySelector(".ca");
+// var ba = document.querySelector(".ba");
+// var acca = document.querySelector(".acca");
+// var bba = document.querySelector(".bba");
+// var totalMarks = 400
 
 
-function setUp(){
-    var obtainedMarks = +ca.value + +ba.value + +acca.value + +bba.value
-    console.log(obtainedMarks);
+// function setUp(){
+//     var obtainedMarks = +ca.value + +ba.value + +acca.value + +bba.value
+//     console.log(obtainedMarks);
 
-    var percentage = obtainedMarks/totalMarks*100
-    console.log(percentage);
+//     var percentage = obtainedMarks/totalMarks*100
+//     console.log(percentage);
 
-    if(percentage > 90){
-        console.log("A+");
-    }else if (percentage > 80){
-        console.log("A");
-    }else if (percentage > 70){
-        console.log("B");
-    }else if (percentage > 60){
-        console.log("C");
-    }else if (percentage > 50){
-        console.log(FAIL);
-    }
-}
+//     if(percentage > 90){
+//         console.log("A+");
+//     }else if (percentage > 80){
+//         console.log("A");
+//     }else if (percentage > 70){
+//         console.log("B");
+//     }else if (percentage > 60){
+//         console.log("C");
+//     }else if (percentage > 50){
+//         console.log(FAIL);
+//     }
+// }
+
+
+
+                                  // ARRAY ANSWER STARTED 
+
+                                //   ANSWER 1
+
+
+
+// let students = [`Ahsan` , `Dawood` , `Moiz` , `mohib` , `Ali`];
+// console.log(students);
+
+
+                                   // ANSWER 2
+
+
+// let Emptyarray = [];              
+
+
+                                   // ANSWER 3
+
+// let stringarray = [`Fahad` , `Abdullah` , `Sameer` , `Mohib`];
+
+
+
+                                   // ANSWER 4
+
+// let booleanarray = [`true` , `false` , `true` , `false`];
+
+
+                                    // ANSWER 5
+
+// let mixedArray = ["apple", 123, true, "banana", false];
+
+
+                                    // ANSWER 6
+
+// let Mobile = [`Mobilink` , `Ufone` , `Telenor` , `Jio` , `Jazz`];
+
+                                     // ANSWER 7
+
+// let Qualification = [`SSC` , `HSC` , `BCS` , `BS` , `BCOM` , `MS` , `MPHIL.` , `PHD`];
+// console.log(Qualification);
+
+
+                                    // ANSWER 8
+
+// let Movies = [`Age of ultron` , `Spectre` , `Jurassic world` , `Inside out`];
+
+// let Arraylength = Movies.length;
+// console.log(Arraylength);
+
+                                     // ANSWER 9
+
+// let cars = [`Audi` , `Ford` , `Volvo` , `Lamborgini`];
+// console.log(cars[0]);
+// console.log(cars[3]);
+
+
+                                     // ANSWER 10
+
+// let students = [`Michael` , `John` , `Tony`];
+// console.log(students);
+
+// let score = [`320` , `230` , `480`];
+// console.log(score);
+// let totalMarks = 500
+
+// function calculatescore(){
+//     let obtainedMarks = +320 + +230 + +480;
+//      console.log(obtainedMarks);
+
+//      let percentage = obtainedMarks/totalMarks*100
+//      console.log(percentage);
+
+// }
+
+
+                                   // ANSWER 11
+
+
+// let colours = [`blue` , `red` , `orange` , `purple`];
+// console.log(colours);
+// colours.unshift(colours[1]);
+// colours.push(colours[0]);
+// colours.unshift(colours[2 ,3]);
+// colours.shift(colours[0]);
+// colours.pop(colours[3]);
+
+
+                                     // ANSWER 12
+
+let score  = [`320` , `230` , `480` , `120`];
+console.log(score);
+
+let ordered = [`120` , `230` , `320` , `280`];
+ordered.sort ((a,b) => a-b);
+console.log(ordered);
+
+
+
+
+
 
 
 

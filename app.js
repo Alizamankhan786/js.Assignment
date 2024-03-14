@@ -460,27 +460,99 @@
 
                                      // ANSWER 12
 
-let score  = [`320` , `230` , `480` , `120`];
-console.log(score);
+// let score  = [`320` , `230` , `480` , `120`];
+// console.log(score);
 
-let ordered = [`120` , `230` , `320` , `280`];
-ordered.sort ((a,b) => a-b);
-console.log(ordered);
+// let ordered = [`120` , `230` , `320` , `280`];
+// ordered.sort ((a,b) => a-b);
+// console.log(ordered);
 
+                                     // ANSWER 13
 
-
-
-
-
-
-
-
-
-
+// let fruits = [`strawberry` , `apple` , `orange` , `banana`];
+// console.log(fruits);
+// const ul = document.querySelector(`ul`);
+// for (let i = 0 ; i < fruits.length ; i++){
+//   ul.innerHTML += `<li>${fruits[i]}</li>`
+// }
 
 
+                                      // ANSWER 14
+
+// let cities = [`karachi` , `lahore` , `islamabad` , `quetta` , `peshawar`];
+// console.log(cities);
+
+// console.log(cities[2 , 3]);
 
 
+                                       // ANSWER 15
+
+// let array = [`this` , `is` , `my` , `cat`];
+// console.log(`this is my cat`);
+
+                                      // ANSWER 16
+
+// let user = ["Keyboard", "Mouse", "Printer", "Monitor"];
+
+// console.log(`Out:
+// ${user[0]}`);
+// console.log(`Out:
+// ${user[1]}`);
+// console.log(`Out:
+// ${user[2]}`);
+// console.log(`Out:
+// ${user[3]}`);
+
+                                     // ANSWER 17
 
 
+//  let user = [`keyboard` , `mouse` , `printer` , `monitor`];
+ 
+//  console.log(`out:${user[0]}`);
+//  console.log(`out:${user[1]}`);
+//  console.log(`out:${user[2]}`);
+//  console.log(`out:${user[3]}`);
 
+
+                                      // ANSWER 18
+
+// let array = [[] , []];
+// console.log(array);
+
+
+                                    // ANSWER 19
+
+// let matrix = [
+// [1, 5, 7]
+// [4, 8, 10]
+// ];
+
+
+                                        // LOOP STARTED 
+
+                                        // ANSWER 1
+
+// for (let i = 1 ; i <= 5 ; i++){
+//   console.log(`hello world` , i);
+// }
+
+
+                                          // ANSWER 2
+
+// for (let i = 1 ; i <= 10 ; i++){
+//   console.log(i);
+// }
+
+
+                                         // ANSWER 3
+
+
+let number = +prompt(`Enter your table number`);
+let times = +prompt(`How many tables do you want`);
+
+
+for (let number = times ; number <= times ; number++){
+  for (let j = 1 ; j <= times; j++){
+  console.log(`${number} x ${j} = ${number * j}`);
+}
+}
